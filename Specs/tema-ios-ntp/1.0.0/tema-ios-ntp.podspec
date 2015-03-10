@@ -104,8 +104,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resource_bundle = { 'Hosts' => 'ios-ntp-rez/ntp.hosts' }
-  # s.resource  = "ios-ntp-rez/ntp.hosts"
+  s.resource  = "ios-ntp-rez/ntp.hosts"
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
